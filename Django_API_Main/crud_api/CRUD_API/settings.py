@@ -31,12 +31,11 @@ SECRET_KEY = 'django-insecure-4%5r8jc)!6*x*svt8&s@3ihbccmbzq(r%(-r(93r$221q=b$8$
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+ALLOWED_HOSTS = ['*']
 
-ALLOWED_HOSTS = []
-
-
+#C:\Python312\python.exe C:\Python312\Lib\site-packages\wfastcgi.py
 # Application definition
-
+    
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
